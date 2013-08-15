@@ -4,7 +4,7 @@ var passport = require('passport'),
     utils = require('../utils.js');
 module.exports = {
     
-    appName: "Flankbook.js",
+    appName: "sails-oauth-provider",
     port: 1337,
     environment: "development",
     express: {
