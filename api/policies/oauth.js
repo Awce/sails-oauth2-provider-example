@@ -13,6 +13,7 @@ module.exports = function(req,res,next) {
 	            res.redirect('/');
 	            return;
 	        }
+            delete req.query.access_token;
 	        req.user = user;
 	        return next();
 	    }
